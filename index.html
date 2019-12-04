@@ -13,6 +13,15 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
 
+    <!-- Judge IE -->
+    <script>
+        (function () {
+        if (navigator.userAgent.indexOf("MSIE") >= 0) {
+            window.location.href = location.protocol + '//' + 'sunrise.now.sh/isIE.html';
+        }
+        })();
+    </script>
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129681195-1"></script>
     <script>
