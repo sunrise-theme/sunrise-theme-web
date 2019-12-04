@@ -1,0 +1,10 @@
+{
+  "name": "sunrise-theme-web",
+  "version": "1.0.0",
+  "description": "Home of the Sunrise theme for Visual Studio Code",
+  "main": "index.js",
+  "repository": "https://github.com/sunrise-theme/sunrise-theme-web.git",
+  "author": "Seingshin Lee <seingshinlee@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
