@@ -1,0 +1,363 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196.732" height="182.1" viewBox="0 0 196.732 182.1">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00dead"/>
+      <stop offset="0.126" stop-color="#00dead"/>
+      <stop offset="0.833" stop-color="#ffcc95"/>
+      <stop offset="0.982" stop-color="#ffcc95"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5151"/>
+      <stop offset="0.121" stop-color="#ff5151"/>
+      <stop offset="0.972" stop-color="#f9ec1b"/>
+      <stop offset="1" stop-color="#f9f119"/>
+    </linearGradient>
+    <filter id="Oval_bottom" x="119.732" y="121" width="77" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top" x="136.732" y="107" width="31" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top" x="151.732" y="111" width="41" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-2" x="117.732" y="119" width="77" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-2" x="134.732" y="105" width="31" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-2" x="149.732" y="109" width="41" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-3" x="129.254" y="97.04" width="24.496" height="12.809" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-3" x="133.401" y="93.646" width="13.186" height="12.21" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-3" x="137.747" y="94.4" width="14.85" height="12.986" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-4" x="127.254" y="95.04" width="24.496" height="12.809" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-4" x="131.401" y="91.646" width="13.186" height="12.21" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-4" x="135.747" y="92.4" width="14.85" height="12.986" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-12"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-5" x="105.835" y="100.717" width="24.496" height="12.809" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-5" x="109.981" y="97.323" width="13.186" height="12.21" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-14"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-5" x="114.328" y="98.078" width="14.85" height="12.986" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-15"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-6" x="55.048" y="86.283" width="31.925" height="15.537" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-16"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-6" x="60.859" y="81.537" width="16.069" height="14.716" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-6" x="66.958" y="82.602" width="18.419" height="15.781" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-18"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-7" x="53.048" y="84.283" width="31.925" height="15.537" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-7" x="58.859" y="79.537" width="16.069" height="14.716" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-20"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-7" x="64.958" y="80.602" width="18.419" height="15.781" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-8" x="2" y="135.207" width="38.645" height="18.331" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-22"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-8" x="9.318" y="129.086" width="18.686" height="17.267" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-23"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-8" x="16.992" y="130.461" width="21.634" height="18.641" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-24"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_bottom-9" x="0" y="133.207" width="38.645" height="18.331" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-25"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_left_top-9" x="7.318" y="127.086" width="18.686" height="17.267" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-26"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_right_top-9" x="14.992" y="128.461" width="21.634" height="18.641" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-27"/>
+      <feFlood flood-color="#9b9b9b" flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.792" x2="-2.223" y2="-0.074" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#281e12"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.897" x2="-3.414" y2="-1.01" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="0.524" y1="1" x2="1.344" y2="-0.797" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="0" y1="0.699" x2="1.654" y2="-0.323" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#281e12"/>
+      <stop offset="1" stop-color="#2f1900"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(4.732 -7)" opacity="0.999">
+    <circle id="Big_circle" data-name="Big circle" cx="91" cy="91" r="91" transform="translate(0 7)" fill="url(#linear-gradient)"/>
+    <g id="Cloud" transform="translate(-4 88.72)">
+      <circle id="Sun" cx="8.5" cy="8.5" r="8.5" transform="translate(121 7.28)" fill="url(#linear-gradient-2)"/>
+      <g id="Cloud_right" data-name="Cloud right" transform="translate(108.96 18.16)">
+        <g id="shadow">
+          <g id="right_bottom" data-name="right bottom">
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_bottom)">
+              <ellipse id="Oval_bottom-10" data-name="Oval bottom" cx="35.5" cy="12" rx="35.5" ry="12" transform="translate(121.73 123)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_left_top)">
+              <ellipse id="Oval_left_top-10" data-name="Oval left top" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(138.73 109)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_right_top)">
+              <ellipse id="Oval_right_top-10" data-name="Oval right top" cx="17.5" cy="13" rx="17.5" ry="13" transform="translate(153.73 113)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="left_top" data-name="left top">
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_bottom-2)">
+              <ellipse id="Oval_bottom-11" data-name="Oval bottom" cx="35.5" cy="12" rx="35.5" ry="12" transform="translate(121.73 123)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_left_top-2)">
+              <ellipse id="Oval_left_top-11" data-name="Oval left top" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(138.73 109)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -109.69, -99.88)" filter="url(#Oval_right_top-2)">
+              <ellipse id="Oval_right_top-11" data-name="Oval right top" cx="17.5" cy="13" rx="17.5" ry="13" transform="translate(153.73 113)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <ellipse id="Oval_bottom-12" data-name="Oval bottom" cx="35.5" cy="12" rx="35.5" ry="12" transform="translate(12.04 23.12)" fill="#fff"/>
+        <ellipse id="Oval_left_top-12" data-name="Oval left top" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(29.04 9.12)" fill="#fff"/>
+        <ellipse id="Oval_right_top-12" data-name="Oval right top" cx="17.5" cy="13" rx="17.5" ry="13" transform="translate(44.04 13.12)" fill="#fff"/>
+      </g>
+      <g id="Cloud_sun_right" data-name="Cloud sun right" transform="translate(130.146 12.107)">
+        <g id="shadow-2" data-name="shadow">
+          <g id="right_bottom-2" data-name="right bottom">
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_bottom-3)">
+              <ellipse id="Oval_bottom-13" data-name="Oval bottom" cx="9.248" cy="3.404" rx="9.248" ry="3.404" transform="translate(131.25 99.04)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_left_top-3)">
+              <ellipse id="Oval_left_top-13" data-name="Oval left top" cx="3.593" cy="3.105" rx="3.593" ry="3.105" transform="translate(135.4 95.65)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_right_top-3)">
+              <ellipse id="Oval_right_top-13" data-name="Oval right top" cx="4.425" cy="3.493" rx="4.425" ry="3.493" transform="translate(139.75 96.4)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="left_top-2" data-name="left top">
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_bottom-4)">
+              <ellipse id="Oval_bottom-14" data-name="Oval bottom" cx="9.248" cy="3.404" rx="9.248" ry="3.404" transform="translate(131.25 99.04)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_left_top-4)">
+              <ellipse id="Oval_left_top-14" data-name="Oval left top" cx="3.593" cy="3.105" rx="3.593" ry="3.105" transform="translate(135.4 95.65)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -130.88, -93.83)" filter="url(#Oval_right_top-4)">
+              <ellipse id="Oval_right_top-14" data-name="Oval right top" cx="4.425" cy="3.493" rx="4.425" ry="3.493" transform="translate(139.75 96.4)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <ellipse id="Oval_bottom-15" data-name="Oval bottom" cx="9.248" cy="3.404" rx="9.248" ry="3.404" transform="translate(0.375 5.213)" fill="#fff"/>
+        <ellipse id="Oval_left_top-15" data-name="Oval left top" cx="3.593" cy="3.105" rx="3.593" ry="3.105" transform="translate(4.522 1.819)" fill="#fff"/>
+        <ellipse id="Oval_right_top-15" data-name="Oval right top" cx="4.425" cy="3.493" rx="4.425" ry="3.493" transform="translate(8.869 2.574)" fill="#fff"/>
+      </g>
+      <g id="Cloud_sun_left" data-name="Cloud sun left" transform="translate(104.42 18.16)">
+        <g id="shadow-3" data-name="shadow">
+          <g transform="matrix(1, 0, 0, 1, -105.15, -99.88)" filter="url(#Oval_bottom-5)">
+            <ellipse id="Oval_bottom-16" data-name="Oval bottom" cx="9.248" cy="3.404" rx="9.248" ry="3.404" transform="translate(107.83 104.72)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -105.15, -99.88)" filter="url(#Oval_left_top-5)">
+            <ellipse id="Oval_left_top-16" data-name="Oval left top" cx="3.593" cy="3.105" rx="3.593" ry="3.105" transform="translate(111.98 101.32)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -105.15, -99.88)" filter="url(#Oval_right_top-5)">
+            <ellipse id="Oval_right_top-16" data-name="Oval right top" cx="4.425" cy="3.493" rx="4.425" ry="3.493" transform="translate(116.33 102.08)" fill="#fff"/>
+          </g>
+        </g>
+        <ellipse id="Oval_bottom-17" data-name="Oval bottom" cx="9.248" cy="3.404" rx="9.248" ry="3.404" transform="translate(2.682 4.837)" fill="#fff"/>
+        <ellipse id="Oval_left_top-17" data-name="Oval left top" cx="3.593" cy="3.105" rx="3.593" ry="3.105" transform="translate(6.829 1.444)" fill="#fff"/>
+        <ellipse id="Oval_right_top-17" data-name="Oval right top" cx="4.425" cy="3.493" rx="4.425" ry="3.493" transform="translate(11.176 2.198)" fill="#fff"/>
+      </g>
+      <g id="Cloud_left_top" data-name="Cloud left top" transform="translate(54.48 0)">
+        <g id="shadow-4" data-name="shadow">
+          <g id="right_bottom-3" data-name="right bottom">
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_bottom-6)">
+              <ellipse id="Oval_bottom-18" data-name="Oval bottom" cx="12.962" cy="4.768" rx="12.962" ry="4.768" transform="translate(57.05 88.28)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_left_top-6)">
+              <ellipse id="Oval_left_top-18" data-name="Oval left top" cx="5.034" cy="4.358" rx="5.034" ry="4.358" transform="translate(62.86 83.54)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_right_top-6)">
+              <ellipse id="Oval_right_top-18" data-name="Oval right top" cx="6.21" cy="4.89" rx="6.21" ry="4.89" transform="translate(68.96 84.6)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="left_top-3" data-name="left top">
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_bottom-7)">
+              <ellipse id="Oval_bottom-19" data-name="Oval bottom" cx="12.962" cy="4.768" rx="12.962" ry="4.768" transform="translate(57.05 88.28)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_left_top-7)">
+              <ellipse id="Oval_left_top-19" data-name="Oval left top" cx="5.034" cy="4.358" rx="5.034" ry="4.358" transform="translate(62.86 83.54)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -55.21, -81.72)" filter="url(#Oval_right_top-7)">
+              <ellipse id="Oval_right_top-19" data-name="Oval right top" cx="6.21" cy="4.89" rx="6.21" ry="4.89" transform="translate(68.96 84.6)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <ellipse id="Oval_bottom-20" data-name="Oval bottom" cx="12.962" cy="4.768" rx="12.962" ry="4.768" transform="translate(1.836 6.563)" fill="#fff"/>
+        <ellipse id="Oval_left_top-20" data-name="Oval left top" cx="5.034" cy="4.358" rx="5.034" ry="4.358" transform="translate(7.647 1.818)" fill="#fff"/>
+        <ellipse id="Oval_right_top-20" data-name="Oval right top" cx="6.21" cy="4.89" rx="6.21" ry="4.89" transform="translate(13.745 2.882)" fill="#fff"/>
+      </g>
+      <g id="Cloud_left" data-name="Cloud left" transform="translate(0 46.913)">
+        <g id="Shadow-5" data-name="Shadow">
+          <g id="right_bottom-4" data-name="right bottom">
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_bottom-8)">
+              <ellipse id="Oval_bottom-21" data-name="Oval bottom" cx="16.323" cy="6.166" rx="16.323" ry="6.166" transform="translate(4 137.21)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_left_top-8)">
+              <ellipse id="Oval_left_top-21" data-name="Oval left top" cx="6.343" cy="5.633" rx="6.343" ry="5.633" transform="translate(11.32 131.09)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_right_top-8)">
+              <ellipse id="Oval_right_top-21" data-name="Oval right top" cx="7.817" cy="6.32" rx="7.817" ry="6.32" transform="translate(18.99 132.46)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="left_top-4" data-name="left top">
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_bottom-9)">
+              <ellipse id="Oval_bottom-22" data-name="Oval bottom" cx="16.323" cy="6.166" rx="16.323" ry="6.166" transform="translate(4 137.21)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_left_top-9)">
+              <ellipse id="Oval_left_top-22" data-name="Oval left top" cx="6.343" cy="5.633" rx="6.343" ry="5.633" transform="translate(11.32 131.09)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -0.73, -128.63)" filter="url(#Oval_right_top-9)">
+              <ellipse id="Oval_right_top-22" data-name="Oval right top" cx="7.817" cy="6.32" rx="7.817" ry="6.32" transform="translate(18.99 132.46)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <ellipse id="Oval_bottom-23" data-name="Oval bottom" cx="16.323" cy="6.166" rx="16.323" ry="6.166" transform="translate(3.268 8.574)" fill="#fff"/>
+        <ellipse id="Oval_left_top-23" data-name="Oval left top" cx="6.343" cy="5.633" rx="6.343" ry="5.633" transform="translate(10.586 2.453)" fill="#fff"/>
+        <ellipse id="Oval_right_top-23" data-name="Oval right top" cx="7.817" cy="6.32" rx="7.817" ry="6.32" transform="translate(18.26 3.828)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Mountains_combination" data-name="Mountains combination" transform="translate(-1)">
+      <g id="Mountains_gradient" data-name="Mountains gradient" transform="translate(0 0.1)">
+        <path id="Oval_right_right" data-name="Oval right right" d="M94.3,118.615c0-27.586,5.539-49.949,12.373-49.949s12.372,22.363,12.372,49.949c0,2.778-.056,5.506-.164,8.161a91.248,91.248,0,0,1-23.032,16.057A180.211,180.211,0,0,1,94.3,118.615Z" transform="translate(36 37)" fill="url(#linear-gradient-3)"/>
+        <path id="Oval_right_left" data-name="Oval right left" d="M81.207,125.943c0-25.728,3.994-46.584,8.922-46.584s8.922,20.856,8.922,46.584c0,5.441-.179,10.666-.507,15.52a90.429,90.429,0,0,1-16.26,6.683A217.644,217.644,0,0,1,81.207,125.943Z" transform="translate(36 37)" fill="url(#linear-gradient-4)"/>
+        <path id="Oval_left_right" data-name="Oval left right" d="M19.7,144.471a91.819,91.819,0,0,1-4.51-28.954c0-33.312,16.477-60.317,36.8-60.317s36.8,27.005,36.8,60.317a90.016,90.016,0,0,1-5.754,32.4A91.389,91.389,0,0,1,19.7,144.471Z" transform="translate(36 37)" fill="url(#linear-gradient-5)"/>
+        <path id="Oval_left_left" data-name="Oval left left" d="M-6.087,127.531q-.113-2.136-.114-4.339c0-20.894,7.816-37.831,17.456-37.831S28.713,102.3,28.713,123.192a69.817,69.817,0,0,1-3.733,23.384A91.007,91.007,0,0,1-6.087,127.531Z" transform="translate(36 37)" fill="url(#linear-gradient-6)"/>
+      </g>
+      <path id="Mountains" d="M1.114,72.331Q1,70.195,1,67.99C1,47.1,8.816,30.16,18.456,30.16c2.734,0,5.323,1.363,7.627,3.792C32.053,13.853,44.636,0,59.193,0,73.557,0,86,13.486,92.062,33.152c1.476-5.653,3.3-8.992,5.27-8.992,2.354,0,4.494,4.757,6.088,12.53,2.194-13.955,6.056-23.219,10.454-23.219,6.834,0,12.373,22.363,12.373,49.95,0,2.778-.056,5.5-.164,8.159a91,91,0,0,1-124.968.752Z" transform="translate(28.8 92.3)" opacity="0.555" fill="url(#linear-gradient-7)"/>
+    </g>
+  </g>
+</svg>
