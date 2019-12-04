@@ -1,0 +1,1 @@
+# 🕍Home of the Sunrise theme for Visual Studio Code
