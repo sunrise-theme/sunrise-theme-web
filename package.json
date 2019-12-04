@@ -6,5 +6,8 @@
   "repository": "https://github.com/sunrise-theme/sunrise-theme-web.git",
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^1.1.4"
+  }
 }
