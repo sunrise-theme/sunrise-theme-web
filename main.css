@@ -1,3 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "./node_modules/tailwindcss/dist/tailwind.min.css";
