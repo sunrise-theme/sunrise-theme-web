@@ -1,3 +1,29 @@
 @import "./node_modules/tailwindcss/dist/tailwind.min.css";
 @import "./node_modules/@glidejs/glide/dist/css/glide.core.min.css";
 @import "./node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
+
+html,
+body {
+    font-size: 16px;
+}
+
+body {
+    background-color: #bfffe3;
+}
+
+span.btn {
+    color: white;
+}
+
+svg {
+    fill: none;
+    stroke: white;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.btn,
+footer {
+    background-color: #2e2e00;
+}
