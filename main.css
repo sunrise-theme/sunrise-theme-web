@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: #BFFFE3;
+    background-color: #bfffe3;
 }
 
 span.btn {
@@ -26,11 +26,11 @@ svg {
 .btn,
 .bright-preview,
 footer {
-    background-color: #2E2E00;
+    background-color: #2e2e00;
 }
 
 .dark-preview {
-    background-color: #BFFFE3;
+    background-color: #bfffe3;
 }
 
 .dark-preview .glide__arrow {
@@ -40,11 +40,37 @@ footer {
     opacity: 0.5 !important;
 }
 
+.dark-preview .glide__bullet {
+    background-color: white;
+}
+
+.dark-preview .glide__bullet:hover {
+    background-color: black;
+    border: 2px solid white;
+}
+
+.dark-preview .glide__bullet--active {
+    background-color: black;
+}
+
 .bright-preview .glide__arrow {
     box-shadow: none !important;
     border: none !important;
     color: black;
     opacity: 0.5 !important;
+}
+
+.bright-preview .glide__bullet {
+    background-color: black;
+}
+
+.bright-preview .glide__bullet:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.bright-preview .glide__bullet--active {
+    background-color: white;
 }
 
 .glide__arrow--right {
