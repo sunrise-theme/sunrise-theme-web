@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: #bfffe3;
+    background-color: #BFFFE3;
 }
 
 span.btn {
@@ -24,13 +24,26 @@ svg {
 }
 
 .btn,
+.bright-preview,
 footer {
-    background-color: #2e2e00;
+    background-color: #2E2E00;
 }
 
-.glide__arrow {
+.dark-preview {
+    background-color: #BFFFE3;
+}
+
+.dark-preview .glide__arrow {
     box-shadow: none !important;
     border: none !important;
+    color: white;
+    opacity: 0.5 !important;
+}
+
+.bright-preview .glide__arrow {
+    box-shadow: none !important;
+    border: none !important;
+    color: black;
     opacity: 0.5 !important;
 }
 
