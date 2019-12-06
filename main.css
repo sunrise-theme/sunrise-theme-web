@@ -23,14 +23,14 @@ svg {
     stroke-linejoin: round;
 }
 
+.dark-preview {
+    background-color: #bfffe3;
+}
+
 .btn,
 .bright-preview,
 footer {
     background-color: #2e2e00;
-}
-
-.dark-preview {
-    background-color: #bfffe3;
 }
 
 .dark-preview .glide__arrow {
@@ -41,16 +41,16 @@ footer {
 }
 
 .dark-preview .glide__bullet {
-    background-color: white;
+    background-color: #bfffe3;
 }
 
 .dark-preview .glide__bullet:hover {
-    background-color: black;
+    background-color: #bfffe3;
     border: 2px solid white;
 }
 
 .dark-preview .glide__bullet--active {
-    background-color: black;
+    background-color: white;
 }
 
 .bright-preview .glide__arrow {
@@ -61,12 +61,12 @@ footer {
 }
 
 .bright-preview .glide__bullet {
-    background-color: black;
+    background-color:#2e2e00;
 }
 
 .bright-preview .glide__bullet:hover {
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #2e2e00;
 }
 
 .bright-preview .glide__bullet--active {
