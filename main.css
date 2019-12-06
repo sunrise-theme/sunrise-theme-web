@@ -27,3 +27,17 @@ svg {
 footer {
     background-color: #2e2e00;
 }
+
+.glide__arrow {
+    box-shadow: none !important;
+    border: none !important;
+    opacity: 0.5 !important;
+}
+
+.glide__arrow--right {
+    right: 1em !important;
+}
+
+.glide__arrow--left {
+    left: 1em !important;
+}
