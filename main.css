@@ -30,16 +30,22 @@ svg {
 }
 
 .theme-block {
-    width: 10em;
+    width: 9em;
 }
 
-@media (min-width: 25em) {
+@media (min-width: 20em) {
     .theme-block {
-        width: 22em;
+        width: 19.65em;
     }
 }
 
 @media (min-width: 30em) {
+    .theme-block {
+        width: 24em;
+    }
+}
+
+@media (min-width: 35em) {
     .theme-block {
         width: 28em;
     }
@@ -47,19 +53,19 @@ svg {
 
 @media (min-width: 40em) {
     .theme-block {
-        width: 34em;
+        width: 38em;
     }
 }
 
 @media (min-width: 45em) {
     .theme-block {
-        width: 40em;
+        width: 44em;
     }
 }
 
 @media (min-width: 50em) {
     .theme-block {
-        width: 46em;
+        width: 50em;
     }
 }
 
@@ -75,7 +81,7 @@ svg {
     }
 }
 
-@media (min-width: 30em) {
+@media (min-width: 35em) {
     .color-block {
         grid-template-columns: repeat(3, 6em);
     }
@@ -99,7 +105,24 @@ svg {
     }
 }
 
+.color-scale-block {
+    display: grid;
+    grid-template-columns: repeat(1, 6em);
+}
+
+@media (min-width: 40em) {
+    .color-scale-block {
+        grid-template-columns: repeat(2, 6em);
+    }
+}
+
 .color-scale {
+    display: grid;
+    grid-template-columns: repeat(1, 6em);
+    grid-auto-rows: 2em;
+}
+
+.sub-color-scale-block {
     display: grid;
     grid-template-columns: repeat(1, 6em);
     grid-auto-rows: 2em;
@@ -113,6 +136,7 @@ svg {
 
 .terminal-layout div,
 .sub-color-block div,
+.sub-color-scale-block div,
 .color-scale div {
     display: flex;
     align-items: center;
