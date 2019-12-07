@@ -23,12 +23,108 @@ svg {
     stroke-linejoin: round;
 }
 
+@media (min-width: 25em) {
+    .left-float {
+        float: left;
+    }
+}
+
+.theme-block {
+    width: 10em;
+}
+
+@media (min-width: 25em) {
+    .theme-block {
+        width: 22em;
+    }
+}
+
+@media (min-width: 30em) {
+    .theme-block {
+        width: 28em;
+    }
+}
+
+@media (min-width: 40em) {
+    .theme-block {
+        width: 34em;
+    }
+}
+
+@media (min-width: 45em) {
+    .theme-block {
+        width: 40em;
+    }
+}
+
+@media (min-width: 50em) {
+    .theme-block {
+        width: 46em;
+    }
+}
+
+.color-block {
+    display: grid;
+    grid-template-columns: repeat(1, 6em);
+    grid-auto-rows: 6em;
+}
+
+@media (min-width: 25em) {
+    .color-block {
+        grid-template-columns: repeat(2, 6em);
+    }
+}
+
+@media (min-width: 30em) {
+    .color-block {
+        grid-template-columns: repeat(3, 6em);
+    }
+}
+
+@media (min-width: 40em) {
+    .color-block {
+        grid-template-columns: repeat(4, 6em);
+    }
+}
+
+@media (min-width: 45em) {
+    .color-block {
+        grid-template-columns: repeat(5, 6em);
+    }
+}
+
+@media (min-width: 50em) {
+    .color-block {
+        grid-template-columns: repeat(6, 6em);
+    }
+}
+
+.color-scale {
+    display: grid;
+    grid-template-columns: repeat(1, 6em);
+    grid-auto-rows: 2em;
+}
+
+.sub-color-block {
+    display: grid;
+    grid-template-columns: repeat(3, 2em);
+    grid-auto-rows: 2em;
+}
+
+.sub-color-block div,
+.color-scale div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dark-preview {
     background-color: #bfffe3;
 }
 
 .btn,
 .bright-preview,
+.dark-theme,
 footer {
     background-color: #2e2e00;
 }

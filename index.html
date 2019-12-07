@@ -81,41 +81,42 @@
     </header>
 
     <section class="flex flex-col items-center py-8 px-4">
-        <div class="flex flex-row items-center justify-center mb-8">
-            <a class="btn flex flex-row items-center py-3 px-6 text-white"
-                href="TODO"
-                target="_blank">
-                <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="7 10 12 15 17 10"></polyline>
-                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                </svg>
-                <span class="btn">
-                    Install
-                </span>
-            </a>
-            <a class="btn flex flex-row items-center py-3 px-6 text-white ml-4"
-                href="TODO" target="_blank">
-                <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                    </path>
-                </svg>
-                <span class="btn">
-                    Source
-                </span>
-            </a>
+        <div>
+            <div class="mb-4">
+                <a class="btn flex flex-row items-center py-3 px-6 text-white mx-4 mb-4 left-float"
+                    href="TODO"
+                    target="_blank">
+                    <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span class="btn">
+                        Install
+                    </span>
+                </a>
+                <a class="btn flex flex-row items-center py-3 px-6 text-white mx-4 mb-4"
+                    href="TODO" target="_blank">
+                    <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    <span class="btn">
+                        Source
+                    </span>
+                </a>
+            </div>
         </div>
-
         <h1 class="text-center text-xl mb-8 md:text-2xl lg:text-3xl">
             A beautifully fresh dual theme for Visual Studio Code
         </h1>
     </section>
 
-    <section class="dark-preview flex justify-center items-center py-16 px-40">
+    <section class="dark-preview flex justify-center items-center py-16 px-4">
         <div class="glide dark-glide">
             <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
+                <ul class="glide__slides"">
                     <li class="glide__slide">
                         <img src="./assets/previews/dark-previews/html.png" alt="HTML with Sunrise" />
                     </li>
@@ -147,7 +148,7 @@
         </div>
     </section>
 
-    <section class="bright-preview flex justify-center items-center py-16 px-40">
+    <section class="bright-preview flex justify-center items-center py-16 px-4">
         <div class="glide bright-glide">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -210,6 +211,50 @@
             </li>
             <li class="mb-3">Enjoy!</li>
         </ol>
+    </section>
+
+    <section class="dark-theme flex flex-col items-center justify-center py-16 px-4 lg:py-16 lg:px-40">
+        <h1 class="text-center text-white text-2xl mb-4">Dark Theme</h1>
+        <div class="theme-block">
+            <div class="flex justify-center left-float">
+                <div class="w-2/3 flex flex-col items-center">
+                    <h1 class="flex flex-col justify-center text-center text-white w-40 text-2xl h-8 my-16">Color scale</h1>
+                    <div class="color-scale">
+                        <div class="bg-pink-100">#XXXXXX</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center justify-center h-8 my-16">
+                    <div class="flex flex-col items-start text-2xl">
+                        <div>
+                            <div class="flex flex-row items-center justify-center">
+                                <img class="w-5 mr-4" src="./assets/svgs/ui-dark.svg" alt="UI icon">
+                                <h1 class="text-white lg:text-xl">UI</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-row items-center justify-center">
+                                <img class="w-5 mr-4" src="./assets/svgs/syntax-dark.svg" alt="Syntax icon">
+                                <h1 class="text-white lg:text-xl">Syntax</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="color-block">
+                    <div class="bg-pink-100">
+                        <div class="sub-color-block">
+                            <div><img class="w-5" src="./assets/svgs/ui-bright.svg" alt="UI icon"></div>
+                            <div></div>
+                            <div><img class="w-5" src="./assets/svgs/syntax-bright.svg" alt="UI icon"></div>
+                        </div>
+                        <div class="color-scale">
+                            <div class="">#XXXXXX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer class="flex flex-col items-center py-20">
