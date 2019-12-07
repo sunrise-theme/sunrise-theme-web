@@ -111,6 +111,7 @@ svg {
     grid-auto-rows: 2em;
 }
 
+.terminal-layout div,
 .sub-color-block div,
 .color-scale div {
     display: flex;
@@ -118,7 +119,8 @@ svg {
     justify-content: center;
 }
 
-.dark-preview {
+.dark-preview,
+.dark-terminal {
     background-color: #bfffe3;
 }
 
