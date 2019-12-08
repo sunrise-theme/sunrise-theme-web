@@ -83,7 +83,7 @@
     <section class="flex flex-col items-center py-8 px-4">
         <div>
             <div class="mb-4">
-                <a class="btn flex flex-row items-center py-3 px-6 text-white mx-4 mb-4 left-float"
+                <a class="btn flex flex-row items-center py-3 px-6 mx-4 mb-4 left-float"
                     href="TODO"
                     target="_blank">
                     <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +95,7 @@
                         Install
                     </span>
                 </a>
-                <a class="btn flex flex-row items-center py-3 px-6 text-white mx-4 mb-4"
+                <a class="btn flex flex-row items-center py-3 px-6 mx-4 mb-4"
                     href="TODO" target="_blank">
                     <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -113,7 +113,7 @@
         </h1>
     </section>
 
-    <section class="dark-preview flex justify-center items-center py-16 px-4 lg:px-40">
+    <section class="dark-preview flex justify-center items-center py-16 px-4 lg:py-16 sm:px-16 md:px-32 lg:px-40 xl:px-48">
         <div class="glide dark-glide">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides"">
@@ -148,7 +148,7 @@
         </div>
     </section>
 
-    <section class="bright-preview flex justify-center items-center py-16 px-4 lg:px-40">
+    <section class="bright-preview flex justify-center items-center py-16 px-4 lg:py-16 sm:px-16 md:px-32 lg:px-40 xl:px-48">
         <div class="glide bright-glide">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -213,15 +213,15 @@
         </ol>
     </section>
 
-    <section class="dark-theme flex flex-col items-center justify-center py-16 px-4 lg:py-16 lg:px-40">
+    <section class="dark-theme flex flex-col items-center justify-center py-16 lg:py-16 lg:px-40">
         <h1 class="text-center text-white text-2xl px-10 mb-4">Dark Theme</h1>
         <div class="theme-block">
             <div class="flex flex-col items-center left-float">
                 <div class="h-8 my-16">
-                    <h1 class="text-white text-2xl">Color Scale</h1>
+                    <h1 class="text-white sm:text-sm md:text-xl lg:text-xl">Color Scale</h1>
                 </div>
                 <div class="color-scale-block">
-                    <div class="sub-color-scale-block">
+                    <div class="sub-color-scale-block text-sm">
                         <div class="r-00-red-xxxxxxxxxxxxxxxx">#FF2C6D</div>
                         <div class="r-01-red-alpha-xxxxxxxxxx">#FF2C6DB3</div>
                         <div class="r-02-bright-red-xxxxxxxxx">#FF4B82</div>
@@ -243,8 +243,9 @@
                         <div class="r-18-bright-purple-xxxxxx">#BCAAFE</div>
                         <div class="r-19-purple-alpha-xxxxxxx text-white">#B084EB80</div>
                         <div class="r-20-purple-xxxxxxxxxxxxx">#B084EB</div>
+                        <div></div>
                     </div>
-                    <div class="sub-color-scale-block">
+                    <div class="sub-color-scale-block text-sm">
                         <div class="wb-00-white-xxxxxxxxxxxxx">#FFFFFF</div>
                         <div class="wb-01-very-bright-gray-xx">#E6E6E6</div>
                         <div class="wb-02-brighter-gray-alpha text-white">#CDCDCD1A</div>
@@ -265,8 +266,8 @@
             </div>
             <div class="flex flex-col items-center">
                 <div class="flex flex-col justify-center h-8 my-16">
-                    <div class="flex flex-col items-start text-2xl">
-                        <div>
+                    <div class="flex flex-col items-start sm:text-sm md:text-xl lg:text-xl">
+                        <div class="mb-2">
                             <div class="flex flex-row items-center justify-center">
                                 <img class="w-5 mr-4" src="./assets/svgs/ui-dark.svg" alt="UI icon">
                                 <h1 class="text-white">UI</h1>
@@ -281,7 +282,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="color-block">
+                    <div class="theme-color-block text-sm">
                         <div class="r-00-red-xxxxxxxxxxxxxxxx">
                             <div class="sub-color-block">
                                 <div><img class="w-5" src="./assets/svgs/ui-bright.svg" alt="UI icon"></div>
@@ -651,7 +652,7 @@
     <section class="dark-terminal flex flex-col items-center py-16 px-4 lg:px-40">
         <h1 class="text-center text-2xl mb-4">Dark Terminal</h1>
         <h2 class="text-center text-xl mb-4">Normal</h2>
-        <div class="color-block terminal-layout">
+        <div class="terminal-color-block terminal-layout text-sm">
             <div class="r-00-red-xxxxxxxxxxxxxxxx">#FF2C6D</div>
             <div class="r-07-yellow-xxxxxxxxxxxxx">#FFB86C</div>
             <div class="r-10-green-xxxxxxxxxxxxxx">#19F9D8</div>
@@ -660,7 +661,7 @@
             <div class="r-20-purple-xxxxxxxxxxxxx">#BCAAFE</div>
         </div>
         <h2 class="text-center text-xl my-4">Bright</h2>
-        <div class="color-block terminal-layout">
+        <div class="terminal-color-block terminal-layout text-sm">
             <div class="r-02-bright-red-xxxxxxxxx">#FF4B82</div>
             <div class="r-08-bright-yellow-xxxxxx">#FFCC95</div>
             <div class="r-13-bright-green-xxxxxxx">#6FE7D2</div>
@@ -671,7 +672,7 @@
     </section>
 
     <footer class="flex flex-col items-center py-20">
-        <img class="w-10 sm:w-12 md:w-14 lg:w-16" src="./assets/svgs/footer.svg" alt="Footer icon">
+        <img class="w-12 sm:w-14 md:w-16 lg:w-16" src="./assets/svgs/footer.svg" alt="Footer icon">
     </footer>
 </body>
 

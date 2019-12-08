@@ -30,89 +30,155 @@ svg {
 }
 
 .theme-block {
-    width: 9em;
+    width: 8em;
 }
 
-@media (min-width: 20em) {
+@media (min-width: 12em) {
     .theme-block {
-        width: 19.65em;
+        width: 9em;
+    }
+}
+
+@media (min-width: 14em) {
+    .theme-block {
+        width: 10em;
+    }
+}
+
+@media (min-width: 16em) {
+    .theme-block {
+        width: 10.5em;
+    }
+}
+
+@media (min-width: 21em) {
+    .theme-block {
+        width: 13em;
+    }
+}
+
+@media (min-width: 27em) {
+    .theme-block {
+        width: 15.8em;
     }
 }
 
 @media (min-width: 30em) {
     .theme-block {
-        width: 24em;
+        width: 18.15em;
     }
 }
 
 @media (min-width: 35em) {
     .theme-block {
-        width: 28em;
+        width: 25em;
     }
 }
 
 @media (min-width: 40em) {
     .theme-block {
-        width: 38em;
+        width: 35em;
     }
 }
 
 @media (min-width: 45em) {
     .theme-block {
-        width: 44em;
+        width: 40em;
     }
 }
 
 @media (min-width: 50em) {
     .theme-block {
-        width: 50em;
+        width: 45em;
     }
 }
 
-.color-block {
+.theme-color-block {
     display: grid;
     grid-template-columns: repeat(1, 6em);
     grid-auto-rows: 6em;
 }
 
+@media (min-width: 15em) {
+    .theme-color-block {
+        grid-template-columns: repeat(2, 6em);
+    }
+}
+
+@media (min-width: 20em) {
+    .theme-color-block {
+        grid-template-columns: repeat(3, 6em);
+    }
+}
+
 @media (min-width: 25em) {
-    .color-block {
+    .theme-color-block {
+        grid-template-columns: repeat(1, 6em);
+    }
+}
+
+@media (min-width: 27em) {
+    .theme-color-block {
         grid-template-columns: repeat(2, 6em);
     }
 }
 
 @media (min-width: 35em) {
-    .color-block {
+    .theme-color-block {
         grid-template-columns: repeat(3, 6em);
     }
 }
 
 @media (min-width: 40em) {
-    .color-block {
+    .theme-color-block {
         grid-template-columns: repeat(4, 6em);
     }
 }
 
 @media (min-width: 45em) {
-    .color-block {
+    .theme-color-block {
         grid-template-columns: repeat(5, 6em);
     }
 }
 
 @media (min-width: 50em) {
-    .color-block {
+    .theme-color-block {
+        grid-template-columns: repeat(6, 6em);
+    }
+}
+
+.terminal-color-block {
+    display: grid;
+    grid-template-columns: repeat(1, 6em);
+    grid-auto-rows: 6em;
+}
+
+@media (min-width: 15em) {
+    .terminal-color-block {
+        grid-template-columns: repeat(2, 6em);
+    }
+}
+
+@media (min-width: 20em) {
+    .terminal-color-block {
+        grid-template-columns: repeat(3, 6em);
+    }
+}
+
+@media (min-width: 40em) {
+    .terminal-color-block {
         grid-template-columns: repeat(6, 6em);
     }
 }
 
 .color-scale-block {
     display: grid;
-    grid-template-columns: repeat(1, 6em);
+    grid-template-columns: repeat(1, 5.25em);
 }
 
 @media (min-width: 40em) {
     .color-scale-block {
-        grid-template-columns: repeat(2, 6em);
+        grid-template-columns: repeat(2, 5.25em);
     }
 }
 
