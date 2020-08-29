@@ -14,13 +14,13 @@ function symbolToChar(content) {
 
 new Glide('.dark-glide', {
     type: 'carousel',
-    autoplay: 1000,
+    autoplay: 5000,
     animationDuration: 1000
 }).mount();
 
 new Glide('.bright-glide', {
     type: 'carousel',
-    autoplay: 1000,
+    autoplay: 5000,
     animationDuration: 1000
 }).mount();
 
