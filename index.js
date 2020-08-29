@@ -73,18 +73,15 @@ for (let key in colorsJSON["rainbow-colors"]) {
         if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
             htmlLeftRight += `<div style="background-color: ${value};" class="text-black">${value}</div>`;
         } else if (yuv(value) < 19200 || !Number.isNaN(alpha(value))) {
-            console.log(!Number.isNaN(alpha(value)));
             htmlLeftRight += `<div style="background-color: ${value};"   class="text-white">${value}</div>`;
         }
     }
 }
 
 htmlLeftLeft += `<div></div>`;
-console.log(htmlLeftLeft);
 const nodeLeftLeft = document.querySelector("#dom-left-left");
 nodeLeftLeft.innerHTML = htmlLeftLeft;
 
-console.log(htmlLeftRight);
 const nodeLeftRight = document.querySelector("#dom-left-right");
 nodeLeftRight.innerHTML = htmlLeftRight;
 
@@ -126,9 +123,38 @@ for (let key in colorsJSON["rainbow-colors"]) {
     nodeRight.innerHTML = htmlRight;
 }
 
-const normalArray = new Array("red-x", "yellow-x", "green-x", "cyan-x", "blue-x", "purple-x");
-const brightArray = new Array("bright-red", "bright-yellow", "bright-green", "bright-cyan", "bright-blue", "bright-purple");
-
 // dom-bottom
+let htmlBottomNormal = ``;
+let htmlBottomBright = ``;
+const normalArray = new Array("red-x", "yellow-x", "green-x", "cyan-x", "blue-x", "purple-x");
+const brightArray = new Array("bright-red-x", "bright-yellow-x", "bright-green-x", "bright-cyan-x", "bright-blue-x", "bright-purple");
+
 // dom-bottom-normal
+for (let key in colorsJSON["rainbow-colors"]) {
+    for (let index in normalArray) {
+        if (key.indexOf(normalArray[index]) > -1 && key.indexOf("diff") < 0 && key.indexOf("bright") < 0) {
+            let value = colorsJSON["rainbow-colors"][key];
+            htmlBottomNormal = document.querySelector("#dom-bottom-normal");
+            if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
+                htmlBottomNormal.innerHTML += `<div class="${key} text-black">${value}</div>`;
+            } else if (yuv(value) < 19200 || !Number.isNaN(alpha(value))) {
+                htmlBottomNormal.innerHTML += `<div class="${key} text-white">${value}</div>`;
+            }
+        }
+    }
+}
+
 // dom-bottom-bright
+for (let key in colorsJSON["rainbow-colors"]) {
+    for (let index in brightArray) {
+        if (key.indexOf(brightArray[index]) > -1) {
+            let value = colorsJSON["rainbow-colors"][key];
+            htmlBottomBright = document.querySelector("#dom-bottom-bright");
+            if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
+                htmlBottomBright.innerHTML += `<div class="${key} text-black">${value}</div>`;
+            } else if (yuv(value) < 19200 || !Number.isNaN(alpha(value))) {
+                htmlBottomBright.innerHTML += `<div class="${key} text-white">${value}</div>`;
+            }
+        }
+    }
+}
