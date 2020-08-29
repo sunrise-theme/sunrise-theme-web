@@ -89,9 +89,46 @@ const nodeLeftRight = document.querySelector("#dom-left-right");
 nodeLeftRight.innerHTML = htmlLeftRight;
 
 // dom-right
+let htmlRight = ``;
+for (let key in colorsJSON["rainbow-colors"]) {
+    value = colorsJSON["rainbow-colors"][key];
 
+    let parent = document.querySelector("#dom-right");
+    parent.innerHTML += `<div class="${key}"></div>`;
 
+    const nodeRight = document.querySelector(`.${key}`);
 
+    if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
+        htmlRight = 
+        `
+        <div class="sub-color-block">
+            <div><img class="w-5" src="https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-web/beta/assets/svgs/ui-bright.svg" alt="UI icon"></div>
+            <div></div>
+            <div><img class="w-5" src="https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-web/beta/assets/svgs/syntax-bright.svg" alt="UI icon"></div>
+        </div>
+        <div class="color-scale text-black">
+            <div>${value}</div>
+        </div>
+        `
+    } else if (yuv(value) < 19200 || !Number.isNaN(alpha(value))) {
+        htmlRight = 
+        `
+        <div class="sub-color-block">
+            <div><img class="w-5" src="https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-web/beta/assets/svgs/ui-dark.svg" alt="UI icon"></div>
+            <div></div>
+            <div><img class="w-5" src="https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-web/beta/assets/svgs/syntax-dark.svg" alt="UI icon"></div>
+        </div>
+        <div class="color-scale text-white">
+            <div>${value}</div>
+        </div>
+        `
+    }
+    nodeRight.innerHTML = htmlRight;
+}
+
+const normalArray = new Array("red-x", "yellow-x", "green-x", "cyan-x", "blue-x", "purple-x");
+const brightArray = new Array("bright-red", "bright-yellow", "bright-green", "bright-cyan", "bright-blue", "bright-purple");
+
+// dom-bottom
 // dom-bottom-normal
-
 // dom-bottom-bright
