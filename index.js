@@ -24,12 +24,6 @@ new Glide('.bright-glide', {
     animationDuration: 1000
 }).mount();
 
-// document.write("<script type='text/javascript' src='./dom/dom-left-left.js'></script>");
-// document.write("<script type='text/javascript' src='./dom/dom-left-right.js'></script>");
-// document.write("<script type='text/javascript' src='./dom/dom-right.js'></script>");
-// document.write("<script type='text/javascript' src='./dom/dom-bottom-normal.js'></script>");
-// document.write("<script type='text/javascript' src='./dom/dom-bottom-bright.js'></script>");
-
 // YUV
 function yuv(content) {
     let Y = 0;
@@ -59,7 +53,7 @@ let htmlLeftRight = ``;
 
 for (let key in colorsJSON["rainbow-colors"]) {
     keyPrefix = key.substr(0, 2);
-    value = colorsJSON["rainbow-colors"][key];
+    value = symbolToChar(colorsJSON["rainbow-colors"][key]);
 
     // dom-left-left
     if (keyPrefix === "r-") {
@@ -88,7 +82,7 @@ nodeLeftRight.innerHTML = htmlLeftRight;
 // dom-right
 let htmlRight = ``;
 for (let key in colorsJSON["rainbow-colors"]) {
-    value = colorsJSON["rainbow-colors"][key];
+    value = symbolToChar(colorsJSON["rainbow-colors"][key]);
 
     let parent = document.querySelector("#dom-right");
     parent.innerHTML += `<div class="${key}"></div>`;
@@ -133,7 +127,7 @@ const brightArray = new Array("bright-red-x", "bright-yellow-x", "bright-green-x
 for (let key in colorsJSON["rainbow-colors"]) {
     for (let index in normalArray) {
         if (key.indexOf(normalArray[index]) > -1 && key.indexOf("diff") < 0 && key.indexOf("bright") < 0) {
-            let value = colorsJSON["rainbow-colors"][key];
+            value = symbolToChar(colorsJSON["rainbow-colors"][key]);
             htmlBottomNormal = document.querySelector("#dom-bottom-normal");
             if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
                 htmlBottomNormal.innerHTML += `<div class="${key} text-black">${value}</div>`;
@@ -148,7 +142,7 @@ for (let key in colorsJSON["rainbow-colors"]) {
 for (let key in colorsJSON["rainbow-colors"]) {
     for (let index in brightArray) {
         if (key.indexOf(brightArray[index]) > -1) {
-            let value = colorsJSON["rainbow-colors"][key];
+            value = symbolToChar(colorsJSON["rainbow-colors"][key]);
             htmlBottomBright = document.querySelector("#dom-bottom-bright");
             if (yuv(value) >= 19200 && Number.isNaN(alpha(value))) {
                 htmlBottomBright.innerHTML += `<div class="${key} text-black">${value}</div>`;
