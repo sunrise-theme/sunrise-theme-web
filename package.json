@@ -8,14 +8,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "prescript": "yarn install && del --force ./colors.json && nwget https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-vscode/beta/assets/json/dark/colors.json -O ./colors.json",
+    "prescript": "yarn install && yarn global add parcel-bundler && del --force ./colors.json && nwget https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-vscode/beta/assets/json/dark/colors.json -O ./colors.json",
     "start": "parcel ./index.html -d build",
     "postscript": "del --force ./colors.json"
   },
   "devDependencies": {
     "@glidejs/glide": "^3.4.1",
     "del-cli": "^3.0.1",
-    "parcel-bundler": "^1.12.4",
     "tailwindcss": "^1.1.4",
     "wget-improved": "^3.2.1"
   }
