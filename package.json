@@ -15,7 +15,7 @@
   "devDependencies": {
     "@glidejs/glide": "^3.4.1",
     "del-cli": "^3.0.1",
-    "parcel": "^2.0.0-beta.1",
+    "parcel": "next",
     "tailwindcss": "^1.1.4",
     "wget-improved": "^3.2.1"
   }
