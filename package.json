@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "prescript": "yarn install && del --force ./colors.json && nwget https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-vscode/beta/assets/json/dark/colors.json -O ./colors.json",
-    "start": "parcel ./index.html",
+    "start": "parcel ./index.html -p 1234",
     "postscript": "del --force ./colors.json"
   },
   "devDependencies": {
