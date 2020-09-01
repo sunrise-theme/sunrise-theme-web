@@ -7,7 +7,6 @@
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
     "prescript": "yarn install && del --force ./colors.json && nwget https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-vscode/beta/assets/json/dark/colors.json -O ./colors.json",
     "start": "parcel ./index.html",
@@ -16,11 +15,8 @@
   "devDependencies": {
     "@glidejs/glide": "^3.4.1",
     "del-cli": "^3.0.1",
+    "parcel": "^2.0.0-beta.1",
     "tailwindcss": "^1.1.4",
     "wget-improved": "^3.2.1"
-  },
-  "dependencies": {
-    "core-js": "3",
-    "parcel": "^1.12.4"
   }
 }
