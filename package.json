@@ -7,6 +7,7 @@
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
     "prescript": "yarn install && del --force ./colors.json && nwget https://raw.githubusercontent.com/sunrise-theme/sunrise-theme-vscode/beta/assets/json/dark/colors.json -O ./colors.json",
     "start": "parcel ./index.html --public-url public",
